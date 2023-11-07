@@ -1,0 +1,33 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.list-container {
+  user-select: none;
+  width: max-content;
+  margin: 1rem;
+}
+.item-container {
+  width: max-content;
+  /* margin: 2px; */
+}
+.list-item {
+  width: 150px;
+  padding: 1rem;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: rgb(231, 231, 231);
+  border-top: 2px solid;
+  border-image: linear-gradient(45deg, rgb(35, 245, 116), rgb(19, 196, 250));
+  border-image-slice: 1;
+}
+
+.placeholder {
+  border: 2px dashed #ccc;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  background-color: transparent; /* Change the background color */
+}
